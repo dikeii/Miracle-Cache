@@ -73,8 +73,6 @@
             // 
             // radioButton1
             // 
-            this.radioButton1.AutoCheck = false;
-            this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(6, 21);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(70, 17);
@@ -93,6 +91,7 @@
             // 
             // button1
             // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.button1.Location = new System.Drawing.Point(12, 130);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -121,8 +120,11 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Configuraciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuraciones";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

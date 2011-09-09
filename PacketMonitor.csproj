@@ -107,6 +107,7 @@
     <Compile Include="Filter\Filters.cs" />
     <Compile Include="Filter\PacketEncryption.cs" />
     <Compile Include="Filter\SplitPackets.cs" />
+    <Compile Include="IniFile.cs" />
     <Compile Include="Packet.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -132,6 +133,11 @@
       <DependentUpon>PacketMonitorForm.cs</DependentUpon>
     </EmbeddedResource>
     <Content Include="App.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

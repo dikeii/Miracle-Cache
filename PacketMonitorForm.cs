@@ -37,6 +37,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 using System.Net;
+using System.IO;
 using PacketMonitor.Filter;
 
 namespace PacketMonitor {
@@ -398,13 +399,13 @@ namespace PacketMonitor {
 			}
 		}
 		private void OnNewPacket(PacketMonitor pm, Packet p) {
-            if (f.sinFiltro() == true)
+            if (_sinFiltro == true)
             {
                 m_Packets.Add(p);			
                 m_PacketsSize += p.TotalLength;
                 this.Invoke(new UpdatePacketList(OnUpdatePacketList), p); 
             }
-            else if(f.filtroPorP() == true)
+            else if(_filtroPorP == true)
             {
                 if((p.Protocol.ToString() == "Tcp") && (Filters.CheckFilter(Filters.PortFilterList, p.SourcePort.ToString()) 
                 || Filters.CheckFilter(Filters.PortFilterList, p.DestinationPort.ToString())))            
@@ -414,7 +415,7 @@ namespace PacketMonitor {
                     this.Invoke(new UpdatePacketList(OnUpdatePacketList), p);            
                 }
             }
-            else if (f.filtroPorPIP() == true)
+            else if (_filtroPorPIP == true)
             {
                 if (((p.Protocol.ToString() == "Tcp") && (Filters.CheckFilter(Filters.PortFilterList, p.SourcePort.ToString())
                     || Filters.CheckFilter(Filters.PortFilterList, p.DestinationPort.ToString())) &&
@@ -490,13 +491,57 @@ namespace PacketMonitor {
         {
             new Filter.Filter(Filters.PortFilterList).Show();
         }
-
+        public static bool _sinFiltro;
+        public static bool _filtroPorP;
+        public static bool _filtroPorPIP;
         private void menuItem4_Click(object sender, EventArgs e)
         {
+            IniFile loadco = new IniFile("config.ini");
             Filter.Configuraciones frm = this.FormInstance;
-
+            /*
             frm.Show();
-            frm.BringToFront();
+            frm.BringToFront();*/
+
+            bool t1 = false;
+            bool t2 = false;
+            bool t3 = false;
+
+            if (loadco.ReadString("Filtro", "filtro1") == "true")
+                t1 = true;
+            if (loadco.ReadString("Filtro", "filtro2") == "true")
+                t2 = true;
+            if (loadco.ReadString("Filtro", "filtro3") == "true")
+                t3 = true;
+
+            frm.LoadConfig(t1, t2, t3);
+            DialogResult dialogResult = frm.ShowDialog();
+            if (dialogResult == DialogResult.OK)
+            {
+                _sinFiltro = frm.filtro1;
+                _filtroPorP = frm.filtro2;
+                _filtroPorPIP = frm.filtro3;
+                StreamWriter tr = new StreamWriter("config.ini");
+
+                tr.WriteLine("[Filtro]");
+
+                if (_sinFiltro)
+                    tr.WriteLine("filtro1=true");
+                else
+                    tr.WriteLine("filtro1=false");
+
+                if (_filtroPorP)
+                    tr.WriteLine("filtro2=true");
+                else
+                    tr.WriteLine("filtro2=false");
+
+                if (_filtroPorPIP)
+                    tr.WriteLine("filtro3=true");
+                else
+                    tr.WriteLine("filtro3=false");
+
+                tr.Close();
+            }
+
         }        
 	}
 }
