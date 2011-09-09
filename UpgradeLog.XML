@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PacketMonitor">
+</Property><Property Name="Archivo de la solución" Value="C:\Users\Dikei\Downloads\Compressed\PacketMonitor\PacketMonitor.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="C:\Users\Dikei\Downloads\Compressed\PacketMonitor\PacketMonitor.suo">
+</Property><Property Name="Date" Value="lunes, 29 de agosto de 2011">
+</Property><Property Name="Time" Value="21:36 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PacketMonitor.sln" Description="La copia C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketMonitor.sln del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="PacketMonitor.suo" Description="La copia C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketMonitor.suo del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketMonitor.csproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketMonitor.csproj">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketMonitor.csproj.user" Description="La copia de seguridad C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketMonitor.csproj.user del archivo se ha creado correctamente">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="AboutForm.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\AboutForm.cs">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="AssemblyInfo.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="Packet.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\Packet.cs">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketForm.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketForm.cs">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketMonitor.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketMonitor.cs">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketMonitorForm.cs" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketMonitorForm.cs">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="App.ico" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="AboutForm.resx" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\AboutForm.resx">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketForm.resx" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketForm.resx">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketMonitorForm.resx" Description="Se realizó correctamente la copia de seguridad del archivo C:\Users\Dikei\Downloads\Compressed\PacketMonitor\Backup\PacketMonitorForm.resx">
+</Event><Event ErrorLevel="1" Project="PacketMonitor" Source="PacketMonitor.csproj" Description="La versión de destino de su proyecto es .NET Framework 2.0 ó 3.0. Si el proyecto utiliza ensamblados que requieren una versión más reciente de .NET Framework, no se podrá compilar. Puede cambiar la versión de .NET Framework haciendo clic en Propiedades en el menú del proyecto y seleccionando una nueva versión en el cuadro desplegable '.NET Framework'. (En Visual Basic, haga clic en el botón 'Opciones avanzadas del compilador...' en la pestaña Compilar).">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketMonitor.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="PacketMonitor" Source="PacketMonitor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PacketMonitor.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="PacketMonitor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PacketMonitor" Source="PacketMonitor.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

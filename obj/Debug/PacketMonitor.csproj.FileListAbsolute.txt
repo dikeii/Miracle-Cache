@@ -1,0 +1,11 @@
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\bin\Debug\PacketMonitor.exe
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\bin\Debug\PacketMonitor.pdb
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\PacketMonitor.exe
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\PacketMonitor.pdb
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\PacketMonitor.PacketForm.resources
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\PacketMonitor.PacketMonitorForm.resources
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\PacketMonitor.AboutForm.resources
+C:\Users\Dikei\Downloads\Compressed\PacketMonitor\obj\Debug\PacketMonitor.Filter.Configuraciones.resources
